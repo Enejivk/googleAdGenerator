@@ -8,3 +8,5 @@ fi
 
 git add .
 git commit -m "$1"
+
+ip = "16.171.238.39"
