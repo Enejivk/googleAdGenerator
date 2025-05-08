@@ -17,7 +17,10 @@ const Index = () => {
   const { toast } = useToast();
 
   useEffect(() => {
-    
+
+    toast({
+      title: "You can only generate 2 copies in 2hours",
+    })
   }, [])
 
 
